@@ -60,6 +60,13 @@ table {
           box-sizing: border-box;
 }
 
+header {
+  height: 56px;
+  width: auto;
+  padding: 0 16px;
+  align-items: center;
+
+}
 
 .left_nav {
   float: left;
@@ -86,4 +93,13 @@ table {
 
 .container_left {
   float: left;
+  width: 65%;
+  clear: left;
+}
+
+.container_right{
+  float: right;
+  width: 35%;
+  clear: right;
+  padding-left: 24px;
 }
